@@ -19,7 +19,7 @@ const PostForm = ({ refreshPosts }) => {
     if (image) formData.append("image", image);
   
     try {
-      await axios.post("posts-app-iwjw.vercel.app/api/posts", formData);
+      await axios.post("https://posts-app-iwjw.vercel.app/api/posts", formData);
   
       // Reload the page after successful post submission
       window.location.reload();

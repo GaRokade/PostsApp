@@ -10,7 +10,7 @@ const ForgotPassword = ({ onClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("posts-app-iwjw.vercel.app/api/forgot-password", { email });
+      const res = await axios.post("https://posts-app-iwjw.vercel.app/api/forgot-password", { email });
       alert(res.data.Status === "Success" ? "Check your email for reset instructions" : res.data.message);
       if (res.data.Status === "Success") navigate("/login");
     } catch (error) {
