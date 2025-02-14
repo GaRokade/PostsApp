@@ -145,7 +145,7 @@ const Post = ({ post, refreshPosts }) => {
         {post.image && (
           <div className="post-image-container" onClick={() => setShowModal(true)}>
             <img
-              src={`http://localhost:5000${post.image}`}
+              src={`posts-app-iwjw.vercel.app${post.image}`}
               alt="Post"
               className="post-image"
               onError={(e) => console.error("Image failed to load", e)}

@@ -273,7 +273,7 @@ app.post("/api/forgot-password", async (req, res) => {
       from: process.env.EMAIL_USER,
       to: user.email,
       subject: "Reset Password",
-      text: `Click here to reset your password: http://localhost:5173/reset-password/${user._id}/${token}`,
+      text: `Click here to reset your password: posts-app-iwjw.vercel.app/reset-password/${user._id}/${token}`,
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
