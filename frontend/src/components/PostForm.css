@@ -1,0 +1,71 @@
+/* General Styles */
+.post-form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .post-form-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .input-field:focus,
+  .textarea-field:focus {
+    border-color: #23a6d5;
+    outline: none;
+  }
+  
+  /* Textarea */
+  .textarea-field {
+    height: 100px;
+    resize: none;
+  }
+  
+  /* File Input */
+  .file-input {
+    margin-bottom: 15px;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background: linear-gradient(135deg, #23a6d5, #23d5ab);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(135deg, #1a82b6, #1ab58d);
+    transform: scale(1.05);
+  }
+  

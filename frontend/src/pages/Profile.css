@@ -1,0 +1,99 @@
+.profile-container {
+    max-width: 1100px; /* Increased width */
+    margin: auto;
+    padding: 40px; /* Increased padding */
+    text-align: center;
+    background: #fff;
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-title {
+    font-size: 32px; /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+  }
+  
+  .profile-image {
+    width: 180px; /* Increased size */
+    height: 180px; /* Increased size */
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    object-fit: cover;
+  }
+  
+  .edit-photo-icon {
+    position: absolute;
+    bottom: 15px; /* Adjusted for new size */
+    right: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-details p {
+    font-size: 20px; /* Increased font size */
+    margin: 10px 0;
+  }
+  
+  button {
+    margin: 15px;
+    padding: 12px 20px;
+    font-size: 18px; /* Bigger text */
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .edit-form input {
+    display: block;
+    width: 95%; /* Increased width */
+    margin: 12px auto;
+    padding: 12px; /* More padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+  
+  .save-btn {
+    background: #28a745;
+  }
+  
+  .save-btn:hover {
+    background: #218838;
+  }
+  
+  .cancel-btn {
+    background: #dc3545;
+  }
+  
+  .cancel-btn:hover {
+    background: #c82333;
+  }
+  
+  .edit-btn {
+    background: #f39c12;
+  }
+  
+  .edit-btn:hover {
+    background: #e67e22;
+  }
+  
