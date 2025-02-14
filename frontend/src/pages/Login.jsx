@@ -27,7 +27,7 @@ const Login = ({ onClose }) => {
     e.preventDefault();
   
     try {
-      const res = await axios.post("https://posts-app-iwjw.vercel.app/api/login", formData, {
+      const res = await axios.post("http://localhost:5000/api/login", formData, {
         headers: { "Content-Type": "application/json" },
       });
   

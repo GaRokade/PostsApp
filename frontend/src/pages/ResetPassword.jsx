@@ -11,7 +11,7 @@ const ResetPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-        const res = await axios.post(`https://posts-app-iwjw.vercel.app/reset-password/${id}/${token}`, { password });
+        const res = await axios.post(`http://localhost:5000/reset-password/${id}/${token}`, { password });
 
       if (res.data.Status === "Success") {
         setMessage("Password reset successfully! Redirecting to login...");
